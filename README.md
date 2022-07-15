@@ -1,4 +1,3 @@
-## Uncertainty-Aware Deep Multi-View Photometric Stereo (CVPR 2022)
+# Organic Priors in Non-Rigid Structure from Motion, ECCV 2022 (Oral Presentation)
 
-
-Authors: [Berk Kaya](https://berk95kaya.github.io/), [Suryansh Kumar](https://suryanshkumar.github.io/), [Carlos Oliveira](https://ee.ethz.ch/the-department/people-a-z/person-detail.MjM1NjA3.TGlzdC8zMjc5LC0xNjUwNTg5ODIw.html), [Vittorio Ferrari](https://sites.google.com/view/vittoferrari), [Luc Van Gool](https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en)
+Authors: [Suryansh Kumar](https://suryanshkumar.github.io/), [Luc Van Gool](https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en)
