@@ -1,1 +1,475 @@
-<h1>Hello!</h1>
+<!doctype html>
+
+<script src="https://kit.fontawesome.com/8c6b6fca0e.js" crossorigin="anonymous"></script>
+
+<!-- STYLE PART -->
+<style type="text/css">
+
+	h1 {
+		font-weight: 350;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+
+	}
+
+	h1.title {
+		font-weight: 350;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		color:#222222;
+	}
+
+	span.conference {
+		font-size:25px;
+	}
+
+	span.authors {
+		font-size:25px;
+	}
+
+
+	h2 {
+		text-align: center;
+		font-weight: normal;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	p {
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		color:#222222;
+	}
+
+	span.abstract {
+		justify-content: center;
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		color:#222222;
+		text-align: justify;
+	}
+	
+	.disclaimerbox {
+		background-color: #eee;
+		border: 1px solid #eeeeee;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		padding: 20px;
+	}
+
+	sup.affiliation {
+		font-size:15px;
+		color:#555555;
+	}
+	
+	video.header-vid {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+
+	img.header-img {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+
+	img.rounded {
+		border: 1px solid #eeeeee;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+
+	a:link,
+	a:visited {
+		color: #642407;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #b1210e;
+	}
+
+	td.dl-link {
+		height: 160px;
+		text-align: center;
+		font-size: 22px;
+	}
+
+	hr.bold {
+		border: 0;
+		height: 2px;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	}
+
+	.author_image {
+		text-align: center;
+	}
+
+</style>
+	
+<!-- HTML PART -->
+<html lang="en">
+
+<head>
+<!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+	<title>Organic Priors in Non-Rigid Structure from Motion</title>
+	<meta property="og:image" content="" />
+	<meta property="og:title" content="Organic Priors in Non-Rigid Structure from Motion"/>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <!-- <link href="sticky-footer-navbar.css" rel="stylesheet"> -->
+</head>
+
+<!--Main page starts here-->
+<body>
+  <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #000000;">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+   			<span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-danger" href="#" >Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#abstract">Abstract</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#introduction">Introduction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#results">Results</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#authors">Authors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#citation">Citation</a>
+          </li>            
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="jumbotron jumbotron-fluid">
+	  <div class="container">
+  		<div class="pager-header"><br>
+	    	<h1 class="title"><img style="height:70px" src="./images/eccv22_logo.png"><b>Organic Priors in Non-Rigid Structure from Motion</b></h1>
+	     	<hr class="my-4">
+			<!-- Authors -->
+		  	<div class="row justify-content-md-center">
+					<div class="col-md-auto text-center">
+						<span class="authors"><a href="https://suryanshkumar.github.io/">Suryansh Kumar</a><sup class="affiliation">1</sup></span>					
+					</div>
+					<div class="col-md-auto text-center">
+						<span class="authors"><a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en">Luc Van Gool</a><sup class="affiliation">1,2</sup></span>					
+					</div>
+				</div>
+  			<!-- Affiliations -->
+				<div class="row justify-content-md-center">
+					<div class="col-md-auto text-center">
+						<span class="authors"> ETH Zurich<sup class="affiliation">1</sup></span>					
+					</div>
+					<div class="col-md-auto text-center">
+						<span class="authors">KU Lueven<sup class="affiliation">2</sup></span>								
+					</div>
+				</div>
+				<br>
+			<!-- Conference -->
+				<center>	
+					<span class="conference">European Conference on Computer Vision (<b>ECCV</b>), 2022.</span><br>
+					<span class="conference">Tel-Aviv, Israel. </span><br>
+					<span class="conference"><b>Oral Presentation</b></span>
+					</center>
+				  </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+
+	<!-- Links -->
+	<div class="container">
+		<div class="row justify-content-md-center">
+		  <div class="col col-md-2"><center>
+		  	<a href="./documents/organic_prior_nrsfm.pdf">
+	                    <i class="fa fa-file fa-2xl"></i> 
+	                </a>
+		  </div>
+	 	  <div class="col col-md-2"><center>
+	 	  	<a href="./documents/supp_organic_prior_nrsfm.pdf">
+	                    <i class="fa fa-file fa-2xl"></i> 
+	                </a>
+		  </div>
+		  <div class="col col-md-2"><center>
+		  	<a href="https://www.youtube.com/watch?v=HoIx2Fk9aSA">
+	                    <i class="fa fa-youtube-play fa-2xl"></i>
+	                </a>
+		  </div>
+		  <div class="w-100"></div>
+		  <div class="col col-md-2"><center>
+		  	Paper
+		  </div>
+		  <div class="col col-md-2"><center>
+		  	Supplementary
+		  </div>
+		  <div class="col col-md-2"><center>
+	  	  	Video
+		  </div>
+		</div>
+	</div>
+
+	<a class = 'anchor' name='abstract'></a><br><hr class="bold"><br>
+	
+	<!-- Abstract -->
+	<div class="container">
+		<div style="text-align: justify">
+			<h2>Abstract</h2>
+			<span class="abstract">
+				This paper advocates the use of organic priors in classical non-rigid structure from motion (NRSfM). By organic priors,
+				we mean invaluable intermediate prior information intrinsic to the NRSfM matrix factorization theory. It is shown that
+				such priors reside in the factorized matrices, and quite surprisingly, existing methods generally disregard them. The
+				paper's main contribution is to put forward a simple, methodical, and practical method that can effectively exploit such
+				organic priors to solve NRSfM. The proposed method does not make assumptions other than the popular one on the low-rank
+				shape and offers a reliable solution to NRSfM under orthographic projection. Our work reveals that the accessibility of
+				organic priors is independent of the camera motion and shape deformation type. Besides that, the paper provides insights
+				into the NRSfM factorization---both in terms of shape and motion---and is the first approach to show the benefit of
+				single rotation averaging for NRSfM. Furthermore, we outline how to effectively recover motion and non-rigid 3D shape
+				using the proposed organic prior based approach and demonstrate results that outperform prior-free NRSfM performance by
+				a significant margin. Finally, we present the benefits of our method via extensive experiments and evaluations on
+				several benchmark datasets.
+			</span>
+		</div>
+	</div><br><br>
+	
+	<a class='anchor' name='introduction'></a><br>
+	<hr class="bold"><br>
+	<!-- Teaser Image -->
+	<div class="container">
+		<div class="pager-header">
+			<a class='anchor' name='setup'></a>
+			<h2>Non-Rigid Structure from Motion Factorization</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-9 col-xs-12">
+			<div style="text-align: justify">
+				<p style="width: 100%;">
+					The problem of recovering the 3D shape of a non-rigidly deforming object from its image feature correspondences across
+					multiple frames is widely known as Non-Rigid Structure from Motion (NRSfM). One of the popular ways to solve NRSfM is
+					the matrix factorization approach. For this, a measurement matrix <b>W</b> is provided as input, which basically is a
+					matrix of image feature correspondences augmented along the columns of <b>W</b> for each keypoint. Another way to think
+					about it is that each column of <b>W</b> is a two-dimensional trajectory of a point across all the frames ---also
+					referred to as trajectory space representation (see Figure b). The goal of NRSfM factorization approach under orthographic
+					camera projection matrix assumption is to decompose the matrix <b>W</b> into product of two matrices <b>R</b> and
+					<b>S</b>. Where, <b>R</b>, <b>S</b> must be a rotation matrix and shape matrix, respectively. Another general assumption is 
+					that the measurement matrix is already mean-centralized, so that the camera matrix reduces to pure rotation matrix. The problem 
+					is challenging due to the inherent unconstrained nature of the problem itself, as many 3D configurations can have similar 
+					image projections. To date, no algorithm can solve NRSfM for all kinds of conceivable motion. Consequently, additional 
+					constraints, priors, and assumptions are often employed to solve NRSfM using the matrix factorization approach.
+				</p>
+			</div>
+			</div>
+			<div class="col-md-3 col-xs-12">
+				<img src="./images/nrsfm_setup.png" height="280" width="280" alt="">
+				<p style="width: 280px;"><small><b>Figure.</b> Classical NRSfM factorization setup.</small></p>
+			</div>
+		</div>
+	</div>
+
+	<a class='anchor'></a><br>
+	<hr class="bold"><br>
+
+	<!-- Abstract -->
+	<div class="container">
+		<div class="pager-header">
+			<a class='anchor' name='setup'></a>
+			<h2>Organic Priors</h2>
+		</div>
+
+		<div class="row">
+			<div class="col-md-9 col-xs-12">
+				<div style="text-align: justify">
+					<p style="width: 100%;">
+						In this paper, we coined the term "organic priors" for NRSfM. By organic priors, we mean the priors that reside in the
+						factorized matrices, which are the results of natural mathematical steps in NRSfM matrix factorization. In addition, we show that such 
+						important priors information resides within the intermediate factorized matrices, and its existence is independent of camera motion and shape deformation 
+						type. We used such a word to describe it because they come naturally by properly conceiving the algebraic and geometric construction of classical NRSfM
+						factorization approach. Surprisingly, most existing methods, if not all, ignore them. This paper shows how to procure organic priors
+						and exploit them effectively.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-xs-12">
+				<img src="./images/rotation_prior_nrsfm.png" height="160" width="200" alt="">
+				<p style="width: 280px;"><small><b>Figure.</b> Organic Rotation Priors</small></p>
+			</div>
+		</div>
+	</div><br><br>
+
+
+
+	<a class = 'anchor' name='results'></a>
+	<br>
+	<hr class="bold">
+
+
+	<h2>Reconstruction Results on MoCap Dataset.</h2><br>
+	<div class="container">
+		<div class="row justify-content-lg-center">
+	 	  <div class="col col-xl-6"><center>
+	 	  	<video width="550" controls autoplay muted loop> 
+				<source src="./videos/pickup.mp4#t=1" type="video/mp4">
+				Your browser does not support the video tag.
+			</video><br><span> Pickup </span><br><br>
+		  </div>
+		  <div class="col col-xl-6"><center>
+		  	<video width="550" controls autoplay muted loop> 
+				<source src="./videos/stretch.mp4#t=1" type="video/mp4">
+				Your browser does not support the video tag.
+			</video><br><span> Stretch </span><br><br>
+		  </div>
+	 	  <div class="col col-xl-6"><center>
+	 	  	<video width="550" controls autoplay muted loop> 
+				<source src="./videos/yoga.mp4#t=1" type="video/mp4">
+				Your browser does not support the video tag.
+			</video><br><span> Yoga </span><br>
+			</div>	 	  
+			<div class="col col-xl-6"><center>
+	 	  	<video width="550" controls autoplay muted loop> 
+				<source src="./videos/face.mp4#t=1" type="video/mp4">
+				Your browser does not support the video tag.
+			</video><br><span> Face </span><br>
+			</div>
+		</div>
+	</div> 
+	<a class = 'anchor' name='results'></a>
+	<br>
+	<hr class="bold">
+	<h2>Reconstruction Results on NRSfM Challenge Dataset</h2> <br>
+
+	<div class="container">
+		<div class="row justify-content-lg-center">
+		  <div class="col col-xl-12"><center>
+		  	<div style="text-align: justify">
+			  	<span class="abstract">
+
+				</span>
+				</div>	
+			</div>	 	  
+		</div>	 	  
+	</div><br>  
+
+
+	<div class="container">
+		<div class="row justify-content-lg-center">
+			<div class="col col-xl-4"><center>
+				<video height="300" controls autoplay muted loop> 
+					<source src="./videos/paper_edit.mp4#t=1" type="video/mp4">
+					Your browser does not support the video tag.
+				</video><br><span> Paper </span><br>
+			</div>
+			<div class="col col-xl-4"><center>
+				<video height="300" controls autoplay muted loop> 
+					<source src="./videos/stretch_sheet_edit.mp4#t=1" type="video/mp4">
+					Your browser does not support the video tag.
+				</video><br><span> Sheet Stretch </span><br>
+			</div>
+			<div class="col col-xl-4"><center>
+				<video height="300" controls autoplay muted loop>
+					<source src="./videos/balloon_edit.mp4#t=1" type="video/mp4">
+					Your browser does not support the video tag.
+				</video><br><span> Balloon </span><br>
+			</div>
+		</div>
+	</div><br>
+
+
+
+
+	<a class = 'anchor' name='authors'></a>
+	<br>
+	<hr class="bold">
+ 	<!--Authors-->
+	<h2>Authors</h2><br>
+	<div class="container">
+		<div class="row justify-content-lg-center">
+	 	  <div class="col col-xl-4"><center>
+	 	  	<div class="author_image"><img style="height:300px" src="./images/authors/pic8.JPG"><span><br><a href="https://suryanshkumar.github.io/">Suryansh Kumar</a></span></div>
+		  </div>
+	 	  	 	  
+		  <div class="col col-xl-4"><center>
+	 	  	<div class="author_image"><img style="height:300px" src="./images/authors/luc.png"><span><br><a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en">Luc Van Gool</a></span></div>	
+		  </div>
+		</div>
+	</div> 
+
+	<a class = 'anchor' name='citation'></a>
+	<br>
+	<hr class="bold">
+	<h2> Citation </h2><br>
+	<div class="container">
+		<div class="row justify-content-lg-center">
+			<div class="card bg-light mb-3" style="width: 700px;">
+		 	  <div class="card-body">
+					<pre>
+	@article{kumar2022organic,
+		title={Organic Priors in Non-Rigid Structure from Motion},
+		author={Kumar, Suryansh and Van Gool, Luc},
+		booktitle={European Conference on Computer Vision (ECCV)},
+		year={2022}
+	}	     
+					</pre>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Acknowledgements-->
+	<a class = 'anchor' name='acknowledgements'></a>
+	<br>
+	<hr class="bold">
+	<h2>Acknowledgements</h2><br>
+	<div class="container">
+		<div class="row justify-content-lg-center">
+		  <div class="col col-xl-6"><center>
+		  	<img style="height:100px" src="./images/ethz-webarchiv-logo.png">
+		  </div>
+	 	  <div class="col col-xl-6"><center>
+	 	  	<img style="height:100px" src="./images/cvl.png">
+		  </div>
+	 	</div>
+	</div> 
+	<br><br>
+	<p style="width:800px; text-align: center">
+		The authors thank Google for their generous gift ("ETH Zurich Foundation", 2020-HS-411). 
+	</p>
+	<br><br>
+
+	<div class="col-xs-12" style="background-color:#202020">
+		<p>
+		<div align="center" style="color:white"> Copyright &copy 2022 Suryansh Kumar</div>
+		</p>
+	</div>
+</body>
+
+</html>
