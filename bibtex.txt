@@ -1,0 +1,7 @@
+@inproceedings{sarno2022neural,
+  title={Neural Architecture Search for Efficient Uncalibrated Deep Photometric Stereo},
+  author={Sarno, Francesco and Kumar, Suryansh and Kaya, Berk and Huang, Zhiwu and Ferrari, Vittorio and Van Gool, Luc},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={361--371},
+  year={2022}
+}
